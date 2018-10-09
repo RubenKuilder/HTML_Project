@@ -33,6 +33,7 @@ header {
 	height: 100vh;
 	background-image: url(../images/header.jpg);
 	background-size: cover;
+	overflow: hidden;
 }
 
 #headerGradient {
@@ -51,7 +52,7 @@ header {
 
 /* NAVIGATION start */
 nav, #headerContent {
-	z-index: 2;
+	z-index: 3;
 	position: relative;
 }
 
@@ -121,10 +122,24 @@ nav ul li a:hover::after {
 }
 
 .btn {
-    display: inline-block;
+	display: inline-block;
     padding: 10px 20px;
     background-color: #62A7DB;
     margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#diagonal {
+    width: 350px;
+    height: 200%;
+    position: absolute;
+    z-index: 2;
+    background: white;
+    opacity: .25;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(30deg);
 }
 /* HEADER end */
 
