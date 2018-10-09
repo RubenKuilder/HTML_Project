@@ -8,3 +8,7 @@ Koen
 Sietze
 Jarno
 Ruben
+
+
+ui card effect
+https://www.youtube.com/watch?v=JLA0bMMWlfo
