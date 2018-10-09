@@ -20,3 +20,6 @@ Color palette:
 #14a37f
 #1de9b6
 #4aedc4
+
+#fafafa
+#ffffff -> #f2f2f2
