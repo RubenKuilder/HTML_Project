@@ -1,0 +1,134 @@
+.container{
+	
+	height: 2000px;
+}
+.clear {
+	clear: left;
+}
+h2 {
+	text-align: center;
+	margin-top: 10px;
+}
+h3 {
+	margin-top: 10px;
+}
+.clear {
+	clear: left;
+}
+div .video {
+	margin: 20px auto;
+	width: 640px;
+}
+video {
+	width: 640px;
+	height: 360px;
+	max-width: 100%;
+}
+td {
+	width: 120px;
+	text-align: center;
+}
+th {
+	background-color: #ccc;
+}
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+table, tr {
+	border: 2px solid #ccc;
+}
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}		
+div .weetjes {
+	background-color: #ccc;
+	width: 290px;
+	height: 250px;
+	border-radius: 10px;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+}
+
+header {
+	background: url(../images/sietze/duiven.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.cloud {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/sietze/cloud.png);
+	animation: animate 60s linear infinite;
+}
+@keyframes animate {
+	/*0% {
+		background-position: 0px;
+	}*/
+	100% {
+		background-position: 5440px;
+	}
+}
+.info {
+	text-align: center;
+}
+.button{
+	margin: 10px auto;
+    padding: 10px;
+	text-align: center;
+
+
+}
+a.button{
+	position: relative;
+	padding: 20px 20px 20px 30px;
+	color: #262626;
+	font-size: 26px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	text-decoration: none;
+}
+
+a.button:before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 2px;
+	background: #262626;
+	transform-style: linear;
+	transition-property: height,width;
+	transition-delay: 0.5s,1s;
+	transition-duration: 0.5s;
+}
+a.button:hover:before{
+	width: 2px;
+	height: 100%;
+	transition-property: width,height;
+	transition-delay: 0.5s,1s;
+}
+a.button:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: #ccc;
+	transform: scaleX(0);
+	transition: 0.5s;
+	transition-delay: 0s;
+	transform-origin: right;
+	z-index: -1;
+}
+
+a.button:hover:after{
+	transform: scaleX(1);
+	transition-delay: 1s;
+}
