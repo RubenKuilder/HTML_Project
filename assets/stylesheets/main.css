@@ -117,6 +117,8 @@ header .headerBackground {
 
 header.home .headerBackground {
 	top: 0;
+	transform: none;
+	width: 100%;
 }
 
 .headerGradient {
@@ -188,3 +190,10 @@ header.home .headerBackground {
 /* GRIDSECTION start */
 
 /* GRIDSECTION end */
+
+@media screen and (max-width: 1200px) {
+	header.home .headerBackground {
+		width: auto;
+		height: 100%;
+	}
+}
