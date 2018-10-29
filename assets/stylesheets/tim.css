@@ -120,3 +120,11 @@ h2 {
         width: 100px;
     height: 100px;
 }
+header {
+    background-image: url('../images/Tim/boogschieten.jpg');
+}
+#calendar {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 10px;
+  }
