@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.tableList {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableHead {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 5px;
+}
+.tableData {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 5px;
+}
+
+.tableRowGrey {
+    background-color: #c4c2c2;
+}
+.marginTop {
+    margin-top: 70px;
+}
+.marginTop2 {
+    margin-top: 30px;
+}
+h2 {
+    text-align: center;
+}
+
+.compoundBow {
+    
+    width: 133.4px;
+    height: 200.0px;
+    background-size: cover;
+    float: left;
+}
+.recurveBow {
+   
+    width: 133.4px;
+    height: 200.0px;
+    background-size: cover;
+    float: left;
+
+}
+.longBow {
+   
+    width: 133.4px;
+    height: 200.0px;
+    background-size: cover;
+    float: left;
+
+}
+.plaatjes {
+    width: 470.2px;
+    /*    height: 200.0px;*/
+    height: 280.0px;
+    /*background-color: green;*/
+    margin: 0 auto;
+    margin-top: 42px;
+}
+.youtubeBorder {
+    border-width: 0px;
+    width: 560px;
+    height: 315px;
+}
+.player {
+    width: 560px;
+    margin: 25px auto;
+}
+.titleCompound {
+    float: left;
+    /*width: 133.4px;*/
+    transition: .5s;
+    text-align: center;
+}
+.titleCompound:hover {
+    transform: scale(1.4);
+}
+.titleRecurve {
+    float: left;
+    /*width: 133.4px;*/ 
+    margin-left: 35px;
+    transition: .5s;
+    text-align: center;
+}
+.titleRecurve:hover {
+    transform: scale(1.4);
+}
+.titleLong {
+    float: left;
+    /*width: 133.4px;*/
+    margin-left: 35px;
+    transition: .5s;
+    text-align: center;
+}
+.titleLong:hover {
+    transform: scale(1.4);
+}
+.noLink {
+    color: black;
+}
+.up {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    transition: .5s;
+}
+.up:hover {
+    transform: scale(1.2);
+}
+.sideMarg {
+    margin: 0 auto;
+        width: 100px;
+    height: 100px;
+}
