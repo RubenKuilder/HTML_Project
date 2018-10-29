@@ -1,0 +1,56 @@
+header {
+	background-image: url(../images/enduro.jpg);
+}
+
+p {
+	margin: 16px 0;
+}
+
+.scroll-link {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+}
+
+.mouse {
+  max-width: 1.5rem;
+  width: 100%;
+  height: auto;
+}
+
+.scroll {
+  animation-name: scroll;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.650, -0.550, 0.250, 1.500);
+  animation-iteration-count: infinite;
+  transform-origin: 50% 20.5px;
+  will-change: transform;
+}
+
+.container p {
+	width: 100%;
+	max-width: 700px;
+}
+
+#videoContainer {
+	margin: 20px 0;
+}
+
+@keyframes scroll {
+  0%, 20% {
+  transform: translateY(0) scaleY(1);
+  }
+}
+
+@keyframes scroll {
+  ...
+  10% {
+  opacity: 1;
+  }
+  100% {
+  transform: translateY(36px) scaleY(2);
+  opacity: 0.01;
+  }
+}

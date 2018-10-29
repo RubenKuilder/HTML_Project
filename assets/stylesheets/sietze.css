@@ -1,7 +1,3 @@
-.container{
-	
-	height: 2000px;
-}
 .clear {
 	clear: left;
 }
@@ -52,9 +48,7 @@ div .weetjes {
 }
 
 header {
-	background: url(../images/sietze/duiven.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-image: url(../images/sietze/duiven.jpg);
 }
 .cloud {
 	position: absolute;

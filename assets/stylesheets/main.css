@@ -98,6 +98,9 @@ header {
 	min-height: 250px;
 	height: 50vh;
 	overflow: hidden;
+	background-image: url(../images/header.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 header.home {
@@ -105,20 +108,6 @@ header.home {
 	min-height: 500px;
 	height: 100vh;
 	overflow: hidden;
-}
-
-header .headerBackground {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	transform: translateY(-50%);
-	width: 100%;
-}
-
-header.home .headerBackground {
-	top: 0;
-	transform: none;
-	width: 100%;
 }
 
 .headerGradient {
@@ -148,12 +137,12 @@ header.home .headerBackground {
 	background: linear-gradient(to bottom, rgba(214,42,42,1) 0%,rgba(214,42,42,0.94) 24%,rgba(214,42,42,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d62a2a', endColorstr='#bfd62a2a',GradientType=0 ); /* IE6-9 */
 }
-	
+
 .headerGradient.bruin {
-	background: -moz-linear-gradient(top, rgba(122,96,32,1) 0%, rgba(122,96,32,0.94) 24%, rgba(122,96,32,0.75) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(122,96,32,1) 0%,rgba(122,96,32,0.94) 24%,rgba(122,96,32,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(122,96,32,1) 0%,rgba(122,96,32,0.94) 24%,rgba(122,96,32,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a6020', endColorstr='#bf7a6020',GradientType=0 ); /* IE6-9 */
+	background: -moz-linear-gradient(top, rgba(122,96,32,1) 0%, rgba(122,96,32,0.94) 24%, rgba(122,96,32,0.75) 100%); /* FF3.6-15 */		
+	background: -webkit-linear-gradient(top, rgba(122,96,32,1) 0%,rgba(122,96,32,0.94) 24%,rgba(122,96,32,0.75) 100%); /* Chrome10-25,Safari5.1-6 */		
+	background: linear-gradient(to bottom, rgba(122,96,32,1) 0%,rgba(122,96,32,0.94) 24%,rgba(122,96,32,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */		
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a6020', endColorstr='#bf7a6020',GradientType=0 ); /* IE6-9 */		
 }
 
 #headerContent {
