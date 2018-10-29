@@ -1,0 +1,55 @@
+.introtekst {
+	font-family: 'Raleway',sans-serif;
+	font-size: 15px;
+}
+
+header {
+	background: url(../images/Jarno/darts.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#headerContentJarno {
+    margin: 0 auto;
+	height: 250px;
+    width: 700px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.buttonJarno{
+	margin:auto;
+	font-size:20px;
+	font-weight:bold;
+	display:block;
+	background-color:#7a6020;
+	color:#FFFFFF;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	text-align: center;
+	width: 180px;
+	height: 40px;
+}
+
+.buttonJarno:hover {
+background-color:#FFFFFF;
+color:#7a6020;
+border-color:7a6020;
+}
+
+a.buttonJarno{
+	position: relative;
+	color: #262626;
+	font-size: 26px;
+	text-decoration: none;
+}
+
+.info {
+	text-align: center;
+}

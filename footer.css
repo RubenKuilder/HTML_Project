@@ -1,0 +1,63 @@
+* 	
+	{
+	font-family: 'Raleway', sans-serif;
+	}
+
+#linksboven
+	{
+	float: left;
+	width: 500px;
+	margin:00px ;
+	padding-left: 5px;
+	color: white;
+	}
+	
+#rechtsboven
+	{
+	float: right;
+	margin:00px ;
+	padding-right: 5px;
+	color: white;
+	}
+
+#linksonder
+	{
+	float: left;
+	width: 500px;
+	margin:00px ;
+	padding-left: 5px;
+	color: rgb(86,129,179); /*hier moet de kleur komen die onderaan de gradient staat, helaas werkt rgba hier niet dus moet je het converten naar rgb op http://marcodiiga.github.io/rgba-to-rgb-conversion, kies als achtergrond wit*/
+	}
+	
+#rechtsonder
+	{
+	float: right;
+	margin:00px ;
+	padding-right: 5px;
+	color: rgb(86,129,179) /*zie linksonder color*/
+	}
+	
+#footerboven
+	{
+	width: 100%;
+	height: 100px;
+	clear: left;
+	margin:00px ;
+	padding: 0px;
+	/*plak hier de door jouw gekozen top gradient om dit ook op de footer toe te passen*/
+	background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(30,87,153,0.94) 24%, rgba(30,87,153,0.75) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(30,87,153,0.94) 24%,rgba(30,87,153,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(30,87,153,0.94) 24%,rgba(30,87,153,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#bf1e5799',GradientType=0 ); /* IE6-9 */
+
+	}
+	
+#footeronder
+	{
+	width: 100%;
+	height: 20px;
+	background-color: rgba(30,87,153,1); /*plak hier de rgb top color*/
+	clear: left;
+	margin:00px ;
+	padding: 0px;
+	}
