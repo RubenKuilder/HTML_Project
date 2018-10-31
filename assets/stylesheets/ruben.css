@@ -1,56 +1,109 @@
 header {
-	background-image: url(../images/enduro.jpg);
+    background-image: url(../images/enduro.jpg);
 }
-
 p {
-	margin: 16px 0;
+    margin: 16px 0;
 }
-
 .scroll-link {
-  position: absolute;
-  bottom: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 999;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
 }
-
 .mouse {
-  max-width: 1.5rem;
-  width: 100%;
-  height: auto;
+    max-width: 1.5rem;
+    width: 100%;
+    height: auto;
 }
-
 .scroll {
-  animation-name: scroll;
-  animation-duration: 1.5s;
-  animation-timing-function: cubic-bezier(0.650, -0.550, 0.250, 1.500);
-  animation-iteration-count: infinite;
-  transform-origin: 50% 20.5px;
-  will-change: transform;
+    animation-name: scroll;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.650, -0.550, 0.250, 1.500);
+    animation-iteration-count: infinite;
+    transform-origin: 50% 20.5px;
+    will-change: transform;
 }
-
 .container p {
-	width: 100%;
-	max-width: 700px;
+    width: 100%;
+    max-width: 700px;
 }
-
 #videoContainer {
-	margin: 20px 0;
+    margin: 20px 0;
 }
+/* MASONRY GRID start */
+
+.flexbox {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 100vw;
+}
+.flexbox:hover img {
+    opacity: 0.28;
+}
+.flexbox .item {
+    position: relative;
+    width: 33.33%;
+}
+.flexbox .item img {
+    width: 100%;
+    display: block;
+    transition: all 0.8s;
+}
+.flexbox .item:hover img {
+    opacity: 1;
+}
+/* MASONRY GRID end */
+
+/* FOOTER start */
+
+#footerboven {
+    background: -moz-linear-gradient(top, rgba(214, 42, 42, 1) 0%, rgba(214, 42, 42, 0.94) 24%, rgba(214, 42, 42, 0.75) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(214, 42, 42, 1) 0%, rgba(214, 42, 42, 0.94) 24%, rgba(214, 42, 42, 0.75) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(214, 42, 42, 1) 0%, rgba(214, 42, 42, 0.94) 24%, rgba(214, 42, 42, 0.75) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d62a2a', endColorstr='#bfd62a2a', GradientType=0);
+    /* IE6-9 */
+}
+#footeronder {
+    background-color: rgba(214, 42, 42, 1);
+}
+/* FOOTER end */
 
 @keyframes scroll {
-  0%, 20% {
-  transform: translateY(0) scaleY(1);
-  }
+    0%, 20% {
+        transform: translateY(0) scaleY(1);
+    }
+}
+@keyframes scroll {
+    10% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(36px) scaleY(2);
+        opacity: 0.01;
+    }
 }
 
-@keyframes scroll {
-  ...
-  10% {
-  opacity: 1;
-  }
-  100% {
-  transform: translateY(36px) scaleY(2);
-  opacity: 0.01;
-  }
+@media (max-width: 860px) {
+    .flexbox {
+        height: 220vw;
+    }
+    .flexbox .item {
+        width: 50%;
+    }
+}
+@media (max-width: 667px) {
+    .flexbox {
+        height: auto;
+    }
+    .flexbox .item {
+        width: 100%;
+    }
 }

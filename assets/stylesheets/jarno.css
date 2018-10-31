@@ -4,9 +4,7 @@
 }
 
 header {
-	background: url(../images/Jarno/darts.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-image: url(../images/darts.jpg);
 }
 
 #headerContentJarno {

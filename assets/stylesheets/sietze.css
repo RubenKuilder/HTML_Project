@@ -48,7 +48,7 @@ div .weetjes {
 }
 
 header {
-	background-image: url(../images/sietze/duiven.jpg);
+	background-image: url(../images/duiven.jpg);
 }
 .cloud {
 	position: absolute;
@@ -56,7 +56,7 @@ header {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(../images/sietze/cloud.png);
+	background: url(../images/cloud.png);
 	animation: animate 60s linear infinite;
 }
 @keyframes animate {
