@@ -31,6 +31,9 @@ p {
 #videoContainer {
     margin: 20px 0;
 }
+#videoContainer iframe {
+    width: 100%;
+}
 /* MASONRY GRID start */
 
 .flexbox {
