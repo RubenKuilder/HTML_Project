@@ -51,3 +51,7 @@ a.buttonJarno{
 .info {
 	text-align: center;
 }
+
+.video {
+	border-width: 0;
+}
